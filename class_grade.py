@@ -13,17 +13,21 @@ once we have three highest number in the full list, we sum them up and divide by
 end
 """"
 
-grade = {}
+grade = []
 
-grade = input  ("Enter the 1st graded")
+grade = input  ("Enter the 1st grade: ")
 grades.appeds(float(grade)) 
-grade = input  ("Enter the 2nd graded")
+
+grade = input  ("Enter the 2nd grade: ")
 grades.appeds(float(grade))
-grade = input  ("Enter the 3rd graded")
+
+grade = input  ("Enter the 3rd grade: ")
 grades.appeds(float(grade))
-grade = input  ("Enter the 4th graded")
+
+grade = input  ("Enter the 4th grade: ")
 grades.appeds(float(grade))
-grade = input  ("Enter the 5th graded")
+
+grade = input  ("Enter the 5th grade: ")
 grades.appeds(float(grade))
 
 grades = sort{}
@@ -31,4 +35,4 @@ grades = grade(2:)
 grades = sum(grades)
 result = grades /3
 
-print("Average Grade {0:21)%$".format(resuit))
+print("Average Grade {0:21}%$".format(result))
